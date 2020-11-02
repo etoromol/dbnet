@@ -1,0 +1,22 @@
+{
+    "Devices": [
+        {
+            "Hostname": "as",
+            "Software_Type": "as",
+            "Software Version": "as",
+            "Hardware": "as"
+        },
+        {
+            "Hostname": "as",
+            "Software_Type": "as",
+            "Software Version": "as",
+            "Hardware": "as"
+        },
+        {
+            "Hostname": "as",
+            "Software_Type": "as",
+            "Software Version": "as",
+            "Hardware": "as"
+        }
+    ]
+}
