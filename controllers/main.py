@@ -43,18 +43,14 @@ while True:
 
     device_info.append(hardware)
 
-    print(device_info)
-
     #Transforma la lista en diccionario para guardar la infor del dispositivo
     device_dict=Dictionary(device_info)
-    print(device_dict)
     
     #Lista de todos los dispositivos
     test.append(device_dict)
 
     #Dictionario de lista
     dev['Devices'] = test
-    print(dev)
 
     cont=input('Do you want to register a new devices YES(Y) NO(N): ')
     if cont=='N' or cont == 'n':
