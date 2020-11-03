@@ -1,19 +1,71 @@
-.white_text {
+/* html5 elements */
+body {
+	font-family: "Fira Code", monospace;
+}
+
+a {
+	text-decoration: none;
+} 
+
+a:hover {
+	color: #50fa7b;
+}
+
+td, th {
+	border: 1px solid #ccc;
+	padding: 7px;
+} 
+
+td {
+	font-size: 14px;
+} 
+
+td:hover {
+	background: #1d1e26;
 	color: #fff;
-	text-decoration: none;
+} 
+
+th {
+	font-size: 13px;
 }
 
-.navy_text {
-	background: #323940;
-	text-decoration: none;
+tbody tr:nth-child(odd) {
+  background: #eee;
 }
 
-.actions {
+footer {
+	z-index: 10;
+	position: fixed; 
+    bottom: 0px; 
+    background: #1d1e26;
+	width: 100%; 
+    height: 30px; 
+}
+
+/* classes */
+.blue_text {
+	text-decoration: none;
+	color: #00bceb;
+}
+
+.dark_blue_text {
+	text-decoration: none;
+	color: #014468;
+}
+
+.darker_blue_text {
+	text-decoration: none;
+	color: #1d1e26;
+}
+
+.center_text {
 	text-align: center;
 }
 
+/* elements */
 #topbar {
-	/*background: #1d1e26;*/
+	z-index: 10;
+	background: #1d1e26;
 	height: 50px;
 	padding: 5px;
 	display: flex;
@@ -27,7 +79,6 @@
 }
 
 #footer {
-	/* font conf */
 	color: rgba(255, 255, 255, .4);
     font-size: 11px;
     font-weight: 300;
@@ -36,41 +87,5 @@
     text-align: center;
     padding-top: 5px;
 	padding-bottom: 5px;
-	margin-left: -8px;
 	-webkit-font-smoothing: antialiased;
-}
-
-body {
-	/*background: rgb(42, 44, 55);*/
-	font-family: "Fira Code", monospace;
-}
-
-footer {
-	z-index: 10;
-	position: fixed; 
-    bottom: 0px; 
-    background: rgb(42, 44, 55);
-	width: 100%; 
-    height: 30px; 
-}
-
-td, th {
-  border: 1px solid #ccc;
-  padding: 7px;
-}
-
-td {
-	font-size: 14px;
-}
-
-td:hover {
-background: #cccccc;
-}
-
-tbody tr:nth-child(odd) {
-  background: #eee;
-}
-
-th {
-
 }

@@ -3,16 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Acme Corporation</title>
-		<link rel="icon" href="app.ico">
+		<link rel="icon" href="images/app.ico">
 		<link rel="stylesheet" href="css/normalize.css">	
 		<link rel="stylesheet" href="css/app.css">	
 		<meta name="author" content="etoromol@cisco.com">
-		<meta name="description" content="Example of Network database.">
+		<meta name="description" content="Example of how to read/write using a 
+		                                  JSON file acting as a database-engine
+		                                  through a MVC architecture approach.">
 	</head>
 	<body>
 		<div id="lga">
 			<div id="topbar">
-				<a class="title">Acme Corp. Network Dashboard</a>
+				<a class="blue_text" href="index.html">Acme Corp. Devices 
+				                                       Dashboard</a>
 				<button id="btn_nd" class="btn">New Device</button>
 			</div>
 			<div id="div_nb">
@@ -21,49 +24,71 @@
 			</div>
 			<div id="div_list">
 				<table id=device_list>
-					<tr>
-						<th>Hardware</th>
-						<th>System</th>
-						<th>Version</th>
-						<th>Hostname</th>
-						<th>Operations</th>
+					<tr class="darker_blue_text">
+						<th>HARDWARE</th>
+						<th>SYSTEM</th>
+						<th>VERSION</th>
+						<th>HOSTNAME</th>
+						<th>OPERATIONS</th>
 					</tr>
-					<tr>
+					<tr class="darker_blue_text">
 						<td>CSR-1000v</td>
 						<td>IOS XE</td>
 						<td>16.09.06</td>
 						<td>dev1</td>
-						<td class="actions">🟢 access 🟢 backup</td>
+						<td class="center_text">
+							<a class="dark_blue_text" href="#">🟢 access</a>
+							<a class="dark_blue_text" href="#">🟢 backup</a>
+					    </td>
 					</tr>
-					<tr>
+					<tr class="darker_blue_text">
 						<td>ASR-1006</td>
 						<td>IOS XE</td>
 						<td>16.09.06</td>
 						<td>dev2</td>
-						<td class="actions">🟢 access 🟢 backup</td>
+						<td class="center_text">
+							<a class="dark_blue_text" href="#">🟢 access</a>
+							<a class="dark_blue_text" href="#">🟢 backup</a>
+					    </td>
 					</tr>
-					<tr>
+					<tr class="darker_blue_text">
 						<td>ISR-4331</td>
 						<td>IOS XE</td>
 						<td>16.09.06</td>
 						<td>dev3</td>
-						<td class="actions">🟢 access 🟢 backup</td>
+						<td class="center_text">
+							<a class="dark_blue_text" href="#">🟢 access</a>
+							<a class="dark_blue_text" href="#">🟢 backup</a>
+					    </td>
 					</tr>
-					<tr>
+					<tr class="darker_blue_text">
 						<td>ISR-2911</td>
 						<td>IOS</td>
 						<td>15.7(3)M10</td>
 						<td>dev4</td>
-						<td class="actions">🟢 access 🟢 backup</td>
+						<td class="center_text">
+							<a class="dark_blue_text" href="#">🟢 access</a>
+							<a class="dark_blue_text" href="#">🟢 backup</a>
+					    </td>
+					</tr>
+					<tr class="darker_blue_text">
+						<td>ISR-3945</td>
+						<td>IOS</td>
+						<td>15.7(3)M9</td>
+						<td>rt-core-001</td>
+						<td class="center_text">
+							<a class="dark_blue_text" href="#">🟢 access</a>
+							<a class="dark_blue_text" href="#">🟢 backup</a>
+					    </td>
 					</tr>
 				</table>
 			</div>
 			<footer id="footer">
-				This
-				<a class="white_text">App</a>
-				is intent to used as educational material 🤓. You are welcome to 
-				review the <a class="white_text">source_code</a> -> 
-				<a class="white_text">click-here.</a>
+				This <a class="blue_text" 
+				href="https://github.com/etoromol/dbnet/blob/main/README.md">App
+			    </a> is intent to use as educational material. You are welcome 
+			    to download the <a class="blue_text" 
+			    href="https://github.com/etoromol/dbnet">source_code_here 🤓</a>
 			</footer>
 		</div>
 	</body>
